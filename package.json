@@ -1,0 +1,19 @@
+{
+  "name": "teknotech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgustinZarate/TeknotechArgentina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgustinZarate/TeknotechArgentina/issues"
+  },
+  "homepage": "https://github.com/AgustinZarate/TeknotechArgentina#readme",
+  "description": ""
+}

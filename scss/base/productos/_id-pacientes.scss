@@ -1,0 +1,25 @@
+.presentation-id-pacientes {
+    padding: 6rem;
+    .card-id-pacientes{
+        position: absolute;
+        top: 10rem;
+        width: 500px;
+        height: 300px;
+        background-color: map-get($map, white );
+        border-radius: 10px;
+        h2 {
+            font-size: 45px;
+            line-height: 62,73px;
+            span {
+                color:map-get($map, light-blue );
+            }
+        }
+    }
+
+    img {
+        height: 410px;
+        width: 600px;
+        border-radius: 10px;
+
+    }
+}

@@ -1,0 +1,28 @@
+/* Navegador */
+.navbar {
+    
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    h1 {
+        margin: 0 8rem;
+    }
+    .active {
+        color: rgb(70, 169, 202) !important;
+        font-weight: bold;
+    }
+    .navbar-collapse {
+        flex-grow: unset;                                                                                                                                                                                                                                                                                                                                                                                              
+        .navbar-nav {
+            a {
+                margin: 0.5rem;
+                font-size: 1.2rem;
+                transition: all 0s;
+                &:hover {
+                    background-image: linear-gradient( rgb(156, 214, 192), rgb(0, 219, 135));
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+}

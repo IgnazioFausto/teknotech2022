@@ -1,0 +1,87 @@
+/* header */
+.presentation-ifarma {
+    background-image: url("../img/productos/ifarma/presentacion-ifarma.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30rem;
+    margin: 0.5rem auto 10rem;
+    border-radius: 5px;
+        .card-ifarma {
+        margin-top: 1rem;
+        width: 600px;
+        height: 380px;
+        background-color: map-get($map, white );
+        border-radius: 10px;
+        h2 {
+            font-size: 45px;
+            line-height: 62,73px;
+            span {
+                color:map-get($map, light-blue );
+            }
+        }
+        p {
+            font-size: 25px;
+            line-height: 33,6px;
+
+        }
+        }
+}
+
+
+/* main */
+
+.cards-ifarma {
+    margin-top: 1rem;
+    p {
+        font-size: 18px;
+        line-height: 24,19px;
+    }
+    .card {
+        border: none;
+        box-shadow: map-get($map, box-shadow-ligth );
+    }
+}
+
+.sobre-ifarma {
+    margin: 10rem auto;
+    h5 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .datos-ifarma {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        ul{
+            margin-left: 5rem;
+            .first{
+                list-style-image: url("../img/productos/ifarma/fondo-azul/icono-precio.png");
+                p {
+                    position: relative;
+                    bottom: 1.5rem;
+                    margin-left: 1rem;
+                }
+            }
+            .second {
+                list-style-image: url("../img/productos/ifarma/fondo-azul/icono-reloj.png");
+                p {
+                    position: relative;
+                    bottom: 1.5rem;
+                    margin-left: 1rem;
+                }
+            }    
+            .third {
+                list-style-image: url("../img/productos/ifarma/fondo-azul/icono-grown.png");
+                p {
+                    position: relative;
+                    bottom: 1.5rem;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+    
+}
