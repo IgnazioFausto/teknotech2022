@@ -222,6 +222,77 @@ button a:hover {
   font-size: 2rem;
 }
 
+.box {
+  position: relative;
+  transition-duration: 1s;
+
+}
+.box-content {
+  position: absolute;
+  width: 300px;
+  height: 345px;
+  left: 0px;
+  top: 6px;
+  background: #ffffff;
+  border: 2px solid #34deca;
+  box-sizing: border-box;
+  box-shadow: 4px 7px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+.box-content p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 378px;
+  width: 260px;
+  margin-top: 6rem;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  transition-duration: 1s;
+
+}
+.box-content h3 {
+  position: absolute;
+  width: 132px;
+  height: 34px;
+  left: 84px;
+  top: 44px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 134.4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transition-duration: 1s;
+
+}
+.box-content {
+  transform: perspective(1000px) rotateY(90deg) scale(0);
+  transition-duration: 1s;
+
+}
+.activate {
+  transform: perspective(1000px) rotateY(0deg) translateX(150px) scale(1);
+  transition-duration: 1s;
+
+}
+a.close {
+  position: relative;
+  display:inline-block;
+  color: #262626;
+  border: 2px solid #262626;
+  margin-top: 1.5rem;
+  border: 0px;
+  cursor: pointer;
+}
 /*Seccion Nuestros productos */
 
 .products {
