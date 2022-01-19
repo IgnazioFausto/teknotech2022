@@ -168,32 +168,41 @@
           <img src="img/iconos-simples/ícono-desarrollo.svg" class="w-25 center" alt="">
           <p>Desarrolo</p>
           <button class="btn-white btn-card open"
-            style="background-color: white; border-radius: 120px; width: 287px; height: 58px; margin: 0 auto; font-family: Montserrat; font-weight: 400; size: 20px;"><a
-              >Ver más</a></button>
+            style="background-color: white; border-radius: 120px; width: 287px; height: 58px; margin: 0 auto; font-family: Montserrat; font-weight: 400; size: 20px;"><a>Ver
+              más</a></button>
           <div class="box-content">
             <h3>Desarrollo</h3>
             <p>Nuestro equipo de Desarrollo, Técnicos y Certificadores de Calidad en Procesos Médicos, trabajarán en
               conjunto para conocer tus necesidades y adaptar nuestra Solución. Así como el desarrollo de nuevas
-              funcionalidades. <br> <a class="close">Ver menos</a></p>   
+              funcionalidades. <br> <a class="close">Ver menos</a></p>
           </div>
         </div>
       </div>
       <div class="col-4">
-        <div class="text-center border-white">
+        <div class="text-center border-white box">
           <img src="img/iconos-simples/icono-implementacion.svg" class="w-25 center" alt="">
           <p>Implementacion</p>
-          <button class="btn-white btn-card"
+          <button class="btn-white btn-card open2"
             style="background-color: white; border-radius: 120px; width: 287px; height: 58px; margin: 0 auto; font-family: Montserrat; font-weight: 400; size: 20px;">Ver
-            Mas</button>
+            más</button>
+          <div class="box-content2">
+            <h3>Implementación</h3>
+            <p>Esta es la línea de largada y nuestra misión es acompañarte durante todo el camino, asesorándote con todo nuestro equipo y planificando cada etapa del proceso, incluyendo Capacitación. Tu éxito también es el nuestro. <br> <a class="close2">Ver menos</a></p>
+          </div>
         </div>
       </div>
       <div class="col-4">
-        <div class="text-center border-white">
+        <div class="text-center border-white box">
           <img src="img/iconos-simples/icono-soporte.svg" class="w-25 center" alt="">
-          <p>soporte</p>
-          <button class="btn-white btn-card"
+          <p>Soporte</p>
+          <button class="btn-white btn-card open3"
             style="background-color: white; border-radius: 120px; width: 287px; height: 58px; margin: 0 auto; font-family: Montserrat; font-weight: 400; size: 20px;">Ver
-            Más</button>
+            más</button>
+          <div class="box-content3">
+            <h3>Soporte</h3>
+            <p>
+              El Soporte es nuestra virtud mas fuerte y estar cerca de todos los usuarios es nuestra prioridad mas importante.  100% personalizado, Remoto, Presencial y a medida. Lo planificamos con con vos y nos adaptamos. <br> <a class="close3">Ver menos</a></p>
+          </div>
         </div>
       </div>
     </div>
@@ -415,6 +424,22 @@
     });
     $('a.close').click(function () {
       $('.box-content').removeClass('activate');
+    });
+  });
+  $(document).ready(function () {
+    $('button.open2').click(function () {
+      $('.box-content2').addClass('activate');
+    });
+    $('a.close2').click(function () {
+      $('.box-content2').removeClass('activate');
+    });
+  });
+  $(document).ready(function () {
+    $('button.open3').click(function () {
+      $('.box-content3').addClass('activate');
+    });
+    $('a.close3').click(function () {
+      $('.box-content3').removeClass('activate');
     });
   });
 </script>
