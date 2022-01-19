@@ -1168,3 +1168,12 @@ input#nombre,
   letter-spacing: 0em;
   text-align: left;
 }
+button input {
+  background-color: transparent;
+  border: 0px;
+  color: white;
+}
+button input:focus {
+  background-color: transparent;
+  color: white;
+}
