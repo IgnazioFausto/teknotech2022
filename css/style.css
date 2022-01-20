@@ -230,6 +230,7 @@ button a:hover {
 .box-content {
   position: absolute;
   width: 300px;
+  margin: 0 15%;
   height: 345px;
   left: 0px;
   top: 6px;
@@ -275,13 +276,13 @@ button a:hover {
 
 }
 .box-content {
-  transform: perspective(1000px) rotateY(90deg) scale(0);
-  transition-duration: 1s;
+  transform: perspective(1000px) rotateX(180deg) scale(0);
+  transition-duration: .3s;
 
 }
 .activate {
   transform: perspective(1000px) rotateY(0deg) translateX(150px) scale(1);
-  transition-duration: 1s;
+  transition-duration: .5s;
 
 }
 a.close {
@@ -297,6 +298,7 @@ a.close {
 .box-content2 {
   position: absolute;
   width: 300px;
+  margin: 0 15%;
   height: 345px;
   left: 0px;
   top: 6px;
@@ -342,13 +344,13 @@ a.close {
 
 }
 .box-content2 {
-  transform: perspective(1000px) rotateY(90deg) scale(0);
-  transition-duration: 1s;
+  transform: perspective(1000px) rotateX(180deg) scale(0);
+  transition-duration: .3s;
 
 }
 .activate {
   transform: perspective(1000px) rotateY(0deg) translateX(150px) scale(1);
-  transition-duration: 1s;
+  transition-duration: .5s;
 
 }
 a.close2 {
@@ -364,6 +366,7 @@ a.close2 {
 .box-content3 {
   position: absolute;
   width: 300px;
+  margin: 0 15%;
   height: 345px;
   left: 0px;
   top: 6px;
@@ -405,17 +408,17 @@ a.close2 {
   display: flex;
   align-items: center;
   text-align: center;
-  transition-duration: 1s;
+  transition-duration: .5s;
 
 }
 .box-content3 {
-  transform: perspective(1000px) rotateY(90deg) scale(0);
-  transition-duration: 1s;
+  transform: perspective(1000px) rotateX(180deg) scale(0);
+  transition-duration: .3s;
 
 }
 .activate {
-  transform: perspective(1000px) rotateY(0deg) translateX(150px) scale(1);
-  transition-duration: 1s;
+  transform: perspective(1000px) rotateX(0deg)  scale(1);
+  transition-duration: .5s;
 
 }
 a.close3 {
