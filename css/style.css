@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Monstserrat-Bold", sans-serif;
 }
+/* ------------------------------fonts---------------------------- */
 @font-face {
   font-family: "Monstserrat-Bold";
   src: url("../font/Montserrat-Bold.ttf") format("ttf");
@@ -12,7 +13,31 @@
   font-family: "Autobus";
   src: url("../font/aAutobusOmnibus.woff") format("woff");
 }
-/* ----------------------------------- MAP -------------------------------------- */
+/* Boton principal */
+.btn {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 60px;
+  margin: 0 auto;
+  width: 203px;
+  height: 68px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  display: flex;
+  color: #ffffff;
+  background: #1e43e1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25),
+    inset 15px 21px 40px rgba(9, 189, 228, 0.8), inset 10px 9px 12px #0595f0;
+  border-radius: 150px;
+}
+.btn:hover {
+  background-image: linear-gradient(#9cd6c0, #00db87);
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.295);
+}
 /*------------------------------------- HOME ------------------------------------*/
 /* HEADER */
 /* Navegador */
@@ -140,7 +165,6 @@ input:focus {
   background-color: #d9d9d9;
   border-radius: 72px;
 }
-
 /* MAIN */
 button a {
   text-decoration: none;
@@ -180,7 +204,6 @@ button a:hover {
   letter-spacing: 0em;
   text-align: left;
 }
-
 /* seccion INTRODUCCION */
 .section-introdution {
   position: relative;
@@ -194,7 +217,6 @@ button a:hover {
 .section-introdution .card .m-height {
   min-height: 8rem;
 }
-
 /* icons cards */
 .icon-cards {
   width: 10rem;
@@ -212,7 +234,6 @@ button a:hover {
   margin: 1rem auto 4rem auto;
 }
 /*Seccion Desarrollo - Implementacion - Soporte */
-
 .section-faster-and-secure h2 {
   font-size: 4.5rem;
   margin-bottom: 3rem;
@@ -221,11 +242,9 @@ button a:hover {
   line-height: 3rem;
   font-size: 2rem;
 }
-
 .box {
   position: relative;
   transition-duration: 1s;
-
 }
 .box-content {
   position: absolute;
@@ -256,7 +275,6 @@ button a:hover {
   align-items: center;
   text-align: center;
   transition-duration: 1s;
-
 }
 .box-content h3 {
   position: absolute;
@@ -273,17 +291,14 @@ button a:hover {
   align-items: center;
   text-align: center;
   transition-duration: 1s;
-
 }
 .box-content {
   transform: perspective(1000px) rotateX(180deg) scale(0);
   transition-duration: .3s;
-
 }
 .activate {
   transform: perspective(1000px) rotateY(0deg) translateX(150px) scale(1);
   transition-duration: .5s;
-
 }
 a.close {
   position: relative;
@@ -324,7 +339,6 @@ a.close {
   align-items: center;
   text-align: center;
   transition-duration: 1s;
-
 }
 .box-content2 h3 {
   position: absolute;
@@ -341,17 +355,14 @@ a.close {
   align-items: center;
   text-align: center;
   transition-duration: 1s;
-
 }
 .box-content2 {
   transform: perspective(1000px) rotateX(180deg) scale(0);
   transition-duration: .3s;
-
 }
 .activate {
   transform: perspective(1000px) rotateY(0deg) translateX(150px) scale(1);
   transition-duration: .5s;
-
 }
 a.close2 {
   position: relative;
@@ -392,7 +403,6 @@ a.close2 {
   align-items: center;
   text-align: center;
   transition-duration: 1s;
-
 }
 .box-content3 h3 {
   position: absolute;
@@ -409,17 +419,14 @@ a.close2 {
   align-items: center;
   text-align: center;
   transition-duration: .5s;
-
 }
 .box-content3 {
   transform: perspective(1000px) rotateX(180deg) scale(0);
   transition-duration: .3s;
-
 }
 .activate {
   transform: perspective(1000px) rotateX(0deg)  scale(1);
   transition-duration: .5s;
-
 }
 a.close3 {
   position: relative;
@@ -431,9 +438,7 @@ a.close3 {
   cursor: pointer;
 }
 /*Seccion Nuestros productos */
-
 .products {
-  /* background-image: url("../img/imagenes-background/bg-cards.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -485,7 +490,6 @@ a.close3 {
   .btn:hover {
   border: none;
 }
-
 /*--------------- Segunda Columna */
 .sidebar-content {
   display: flex;
@@ -516,7 +520,6 @@ a.close3 {
 .sidebar-content .content-card .container-btn .btn:hover {
   border: none;
 }
-
 /* Seccion NOSOTROS */
 #nosotros {
   padding-top: 10rem;
@@ -602,7 +605,6 @@ a.close3 {
   letter-spacing: 0em;
   text-align: start;
 }
-
 /*------------------------------------- PRODUCTOS ---------------------------*/
 /* Ihos */
 .hospitalizacion {
@@ -862,7 +864,6 @@ img.img-main-ibox {
   font-weight: 700;
   font-family: Montserrat;
 }
-
 .icon-ibox-cards {
   position: absolute;
 }
@@ -1018,8 +1019,6 @@ img.img-main-ibox {
   font-style: normal;
   font-size: 20px;
   line-height: 140.9%;
-  /* or 28px */
-
   color: #000000;
 }
 ul.text-ifarma-2 li {
@@ -1072,9 +1071,7 @@ ul.icons-ifarma img:last-child {
   font-size: 25px;
   line-height: 30px;
 }
-
 /* iTraz */
-
 .itraz-container-img {
   height: 527px;
   width: 1220px;
@@ -1210,7 +1207,6 @@ img.img-main-itraz {
     inset 15px 21px 40px rgba(9, 189, 228, 0.8), inset 10px 9px 12px #0595f0;
   border-radius: 150px;
 }
-
 /* ID Pacientes  */
 .img-main-idPacientes {
   position: absolute;
@@ -1233,34 +1229,6 @@ img.img-main-itraz {
   top: 1372px;
   position: absolute;
 }
-/* ------------------------------ @Medias Query ----------------------------------*/
-
-.btn {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 19px 60px;
-  margin: 0 auto;
-  width: 203px;
-  height: 68px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 30px;
-  display: flex;
-  color: #ffffff;
-  background: #1e43e1;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25),
-    inset 15px 21px 40px rgba(9, 189, 228, 0.8), inset 10px 9px 12px #0595f0;
-  border-radius: 150px;
-}
-.btn:hover {
-  /* hacer un gardient con colores de map get */
-  background-image: linear-gradient(#9cd6c0, #00db87);
-  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.295);
-}
-
 /* Clases genericas */
 .card {
   border: 1px solid black;
@@ -1271,11 +1239,9 @@ img.img-main-itraz {
 .card .btn {
   margin: 1rem auto;
 }
-
 .center {
   margin: 1rem auto;
 }
-
 .col-sm-6 {
   width: auto;
 }
@@ -1284,7 +1250,6 @@ img.img-main-itraz {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border: 0px;
 }
-
 /* TITULOS */
 .titulo {
   font-family: Montserrat;
@@ -1313,7 +1278,6 @@ img.img-main-itraz {
   font-family: Montserrat;
   line-height: 55px;
 }
-
 /* CONTACTO */
 #contacto {
   height: 100vh;
