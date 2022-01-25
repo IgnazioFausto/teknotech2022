@@ -1365,7 +1365,6 @@ img.img-main-itraz {
   width: 24px;
   margin-left: 3.2rem;
 }
-
 /* PRO */
 .card-pro {
   position: absolute;
@@ -1430,7 +1429,6 @@ img.img-main-itraz {
   position: absolute;
   width: 393px;
   height: 158px;
-
   background: linear-gradient(97.74deg, #1e43e1 19.25%, #0595f0 58.35%);
   box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25);
   border-radius: 10px 10px 0px 0px;
@@ -1462,6 +1460,132 @@ img.img-main-itraz {
   font-size: 20px;
   line-height: 24px;
   text-align: center;
+}
+/* contenido de modales abiertos */
+.cont-lite {
+  position: absolute;
+  opacity: 0;
+  z-index: 5;
+  width: 85%;
+  height: 1051px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 13px 12px #00000033;
+  border-radius: 20px;
+  margin: 0 8%;
+  margin-top: -3rem;
+}
+.cont-lite h2 {
+  position: absolute;
+  width: auto;
+  height: 63px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 139.4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 33%;
+  margin-top: 127px;
+}
+.cont-lite p {
+  position: absolute;
+  width: auto;
+  height: 70px;
+  left: 97px;
+  top: 216px;
+  margin: 0 6%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 139.4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+/* card content pacientes */
+.card-a-content-pacientes {
+  position: absolute;
+  width: 322px;
+  height: 231px;
+  left: 87px;
+  top: 370px;
+  background: white;
+  border-radius: 10px;
+}
+.card-a-content-pacientes p,
+.card-b-content-pacientes p,
+.card-c-content-pacientes p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: initial;
+  width: 254px;
+  height: 135px;
+  margin-left: 46px;
+  height: 135px;
+  width: 254px;
+  left: 133px;
+  top: 460px;
+  border-radius: nullpx;
+}
+.card-a-content-pacientes img,
+.card-b-content-pacientes img,
+.card-c-content-pacientes img {
+  width: 48px;
+  height: 48px;
+  left: 133px;
+  top: 417px;
+  margin-top: 1%;
+  border-radius: 0px;
+  margin-left: 46px;
+}
+.card-b-content-pacientes {
+  position: absolute;
+  width: 322px;
+  height: 231px;
+  left: 443px;
+  top: 370px;
+  background: white;
+  border-radius: 10px;
+}
+.card-c-content-pacientes {
+  position: absolute;
+  width: 322px;
+  height: 231px;
+  left: 799px;
+  top: 370px;
+  background: white;
+  border-radius: 10px;
+}
+.card-content-subtitle {
+  position: absolute;
+  width: 654px;
+  height: 148px;
+  left: 277px;
+  top: 691px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140.9%;
+  text-align: center;
+  color: #000000;
+}
+.divisor {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 422px;
+  top: 924px;
+  border: 2px solid #1a242e;
 }
 /* Clases genericas */
 .card {
