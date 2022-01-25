@@ -294,15 +294,15 @@ button a:hover {
 }
 .box-content {
   transform: perspective(1000px) rotateX(180deg) scale(0);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 .activate {
   transform: perspective(1000px) rotateY(0deg) translateX(150px) scale(1);
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 a.close {
   position: relative;
-  display:inline-block;
+  display: inline-block;
   color: #262626;
   border: 2px solid #262626;
   margin-top: 1.5rem;
@@ -358,15 +358,15 @@ a.close {
 }
 .box-content2 {
   transform: perspective(1000px) rotateX(180deg) scale(0);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 .activate {
   transform: perspective(1000px) rotateY(0deg) translateX(150px) scale(1);
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 a.close2 {
   position: relative;
-  display:inline-block;
+  display: inline-block;
   color: #262626;
   border: 2px solid #262626;
   margin-top: 1.5rem;
@@ -418,19 +418,19 @@ a.close2 {
   display: flex;
   align-items: center;
   text-align: center;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 .box-content3 {
   transform: perspective(1000px) rotateX(180deg) scale(0);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 .activate {
-  transform: perspective(1000px) rotateX(0deg)  scale(1);
-  transition-duration: .5s;
+  transform: perspective(1000px) rotateX(0deg) scale(1);
+  transition-duration: 0.5s;
 }
 a.close3 {
   position: relative;
-  display:inline-block;
+  display: inline-block;
   color: #262626;
   border: 2px solid #262626;
   margin-top: 1.5rem;
@@ -1229,6 +1229,240 @@ img.img-main-itraz {
   top: 1372px;
   position: absolute;
 }
+/* modales */
+.content-idPacientes {
+  display: block;
+  top: 900px;
+  position: relative;
+}
+.card-lite {
+  position: absolute;
+  width: 393px;
+  height: 771px;
+  left: 149px;
+  z-index: 3;
+  background: #f8f1f1;
+  box-shadow: 4px 4px 18px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.cover-lite {
+  position: relative;
+  width: 393px;
+  height: 158px;
+  background: linear-gradient(
+    94.6deg,
+    #0595f0 23.13%,
+    #0595f0 73.39%,
+    #2073a7 99.23%
+  );
+  box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 19px rgba(255, 255, 255, 0.6);
+
+  border-radius: 10px 10px 0px 0px;
+}
+.title-cover-lite {
+  position: absolute;
+  width: 288px;
+  height: 135.8px;
+  margin: 3% 27%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 134.4%;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sub-lite h2 {
+  position: absolute;
+  width: 297px;
+  height: 61px;
+  margin: 2rem 3rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+/* list ul lite */
+.ul-idPacientes {
+  position: absolute;
+  width: 317.04px;
+  height: 440px;
+  margin: 8rem 10%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 350.4%;
+  display: flex;
+  align-items: center;
+}
+.ul-idPacientes-pro {
+  margin: 18rem 10%;
+  position: absolute;
+  width: 326.5px;
+  height: 467.96px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 350.4%;
+  display: flex;
+  align-items: center;
+}
+.ul-idPacientes-std {
+  position: absolute;
+  margin: 17rem 10%;
+  width: 317.04px;
+  height: 440px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 350.4%;
+  display: flex;
+  align-items: center;
+}
+.ul-idPacientes ul,
+.ul-idPacientes-pro ul,
+.ul-idPacientes-std ul {
+  list-style: none;
+}
+.ul-idPacientes ul img {
+  margin-left: 4rem;
+  width: 24px;
+}
+.ul-idPacientes ul img.li-2 {
+  width: 24px;
+  margin-left: 4.5rem;
+}
+.ul-idPacientes ul img.li-3 {
+  width: 24px;
+  margin-left: 5.28rem;
+}
+.ul-idPacientes ul img.li-4 {
+  width: 24px;
+  margin-left: 2.28rem;
+}
+.ul-idPacientes ul img.li-5 {
+  width: 24px;
+  margin-left: 8.6rem;
+}
+.ul-idPacientes ul img.li-6 {
+  width: 24px;
+  margin-left: 5.4rem;
+}
+.ul-idPacientes ul img.li-7 {
+  width: 24px;
+  margin-left: 0.45rem;
+}
+.ul-idPacientes ul img.li-8 {
+  width: 24px;
+  margin-left: 3.2rem;
+}
+
+/* PRO */
+.card-pro {
+  position: absolute;
+  width: 404.72px;
+  height: 820px;
+  left: 518px;
+  top: 1515px;
+  z-index: 4;
+  background: #f8f1f1;
+  box-shadow: 4px 4px 18px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.cover-pro {
+  position: absolute;
+  width: 405px;
+  height: 168.34px;
+  background: linear-gradient(97.28deg, #0b9b8a 2.7%, #34deca 46.68%);
+  box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 10px 0px 0px;
+}
+.title-cover-pro {
+  position: absolute;
+  width: 288px;
+  height: 135.8px;
+  margin: 3% 27%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 134.4%;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sub-pro h2 {
+  position: absolute;
+  width: 297px;
+  height: 61px;
+  margin: 13rem 4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+/* std */
+.card-std {
+  position: absolute;
+  width: 393px;
+  height: 771px;
+  z-index: 3;
+  left: 899px;
+  top: 1549px;
+  background: #f8f1f1;
+  box-shadow: 4px 4px 18px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.cover-std {
+  position: absolute;
+  width: 393px;
+  height: 158px;
+
+  background: linear-gradient(97.74deg, #1e43e1 19.25%, #0595f0 58.35%);
+  box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 10px 0px 0px;
+}
+.title-cover-std {
+  position: absolute;
+  width: 288px;
+  height: 135.8px;
+  margin: 3% 27%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 134.4%;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sub-std h2 {
+  position: absolute;
+  width: 297px;
+  height: 61px;
+  margin: 12rem 4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
 /* Clases genericas */
 .card {
   border: 1px solid black;
@@ -1277,8 +1511,7 @@ img.img-main-itraz {
   text-align: left;
   font-family: Montserrat;
   line-height: 55px;
-}
-/* CONTACTO */
+} /* CONTACTO */
 #contacto {
   height: 100vh;
   width: 800px;
