@@ -1243,6 +1243,7 @@ img.img-main-itraz {
   z-index: 3;
   background: #f8f1f1;
   box-shadow: 4px 4px 18px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
   border-radius: 8px;
 }
 .cover-lite {
@@ -1257,7 +1258,6 @@ img.img-main-itraz {
   );
   box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25),
     inset 0px 4px 19px rgba(255, 255, 255, 0.6);
-
   border-radius: 10px 10px 0px 0px;
 }
 .title-cover-lite {
@@ -1464,7 +1464,7 @@ img.img-main-itraz {
 /* contenido de modales abiertos */
 .cont-lite {
   position: absolute;
-  opacity: 0;
+  display: none;
   z-index: 5;
   width: 85%;
   height: 1051px;
@@ -1473,7 +1473,10 @@ img.img-main-itraz {
   box-shadow: 3px 3px 13px 12px #00000033;
   border-radius: 20px;
   margin: 0 8%;
-  margin-top: -3rem;
+  margin-top: -1rem;
+}
+.cont-lite-active {
+  display: block;
 }
 .cont-lite h2 {
   position: absolute;
