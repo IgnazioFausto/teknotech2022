@@ -1372,10 +1372,11 @@ img.img-main-itraz {
   height: 820px;
   left: 518px;
   top: 1515px;
-  z-index: 4;
+  z-index: 5;
   background: #f8f1f1;
   box-shadow: 4px 4px 18px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+  cursor: pointer;
 }
 .cover-pro {
   position: absolute;
@@ -1424,6 +1425,7 @@ img.img-main-itraz {
   background: #f8f1f1;
   box-shadow: 4px 4px 18px 10px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+  cursor: pointer;
 }
 .cover-std {
   position: absolute;
@@ -1465,7 +1467,7 @@ img.img-main-itraz {
 .cont-lite {
   position: absolute;
   display: none;
-  z-index: 5;
+  z-index: 6;
   width: 85%;
   height: 1051px;
   background: rgba(255, 255, 255, 1);
@@ -1508,6 +1510,139 @@ img.img-main-itraz {
   display: flex;
   align-items: center;
   text-align: center;
+}
+.cont-pro {
+  position: absolute;
+  display: none;
+  z-index: 5;
+  width: 85%;
+  height: 1051px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 13px 12px #00000033;
+  border-radius: 20px;
+  margin: 61.5% 8%;
+  cursor: pointer;
+}
+.cont-pro-active {
+  display: block;
+}
+.cont-pro h2 {
+  position: absolute;
+  width: auto;
+  height: 63px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 139.4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 33%;
+  margin-top: 127px;
+}
+.cont-pro p {
+  position: absolute;
+  width: 1014px;
+  height: 210px;
+  left: 97px;
+  top: 189px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 139.4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.card-content-subtitle-pro {
+  position: absolute;
+  width: 654px;
+  height: 148px;
+  left: 477px;
+  top: 691px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140.9%;
+  text-align: left;
+  color: #000000;
+  border-left: 4px solid #1a242e;
+  padding-left: 37px;
+}
+.card-content-sub-pro {
+  position: absolute;
+  width: 240px;
+  height: 273px;
+  left: 158px;
+  top: 65%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140.9%;
+  text-align: right;
+  color: #000000;
+}
+/* std */
+.cont-std {
+  position: absolute;
+  display: none;
+  z-index: 5;
+  width: 85%;
+  height: 90%;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 13px 12px #00000033;
+  border-radius: 20px;
+  margin: 61.5% 8%;
+}
+.cont-std-active {
+  display: block;
+}
+.cont-std h2 {
+  position: absolute;
+  width: auto;
+  height: 63px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 139.4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 33%;
+  margin-top: 127px;
+}
+.cont-std p {
+  position: absolute;
+  width: 1014px;
+  height: 70px;
+  left: 30%;
+  top: 242px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 139.4%;
+  /* or 35px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.divisor-std {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 422px;
+  top: 724px;
+  border: 2px solid #1a242e;
 }
 /* card content pacientes */
 .card-a-content-pacientes {
