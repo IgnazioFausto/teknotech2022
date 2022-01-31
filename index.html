@@ -38,18 +38,9 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
-          <!-- Dropdown Productos-->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#productos" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Productos
-            </a>
-            <!-- Lista Productos -->
-            <ul class="dropdown-menu ul-productos border-0" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="html/ihos.html">iHos</a></li>
-              <li><a class="dropdown-item" href="html/ibox.html">iBox QR</a></li>
-              <li><a class="dropdown-item" href="html/ifarma.html">iFarma</a></li>
-            </ul>
+          <!-- Link Productos -->
+          <li class="nav-item">
+            <a class="nav-link" href="#productos">Productos</a>
           </li>
           <!-- Link Nosotros -->
           <li class="nav-item">
@@ -57,7 +48,7 @@
           </li>
           <!-- Link Contacto -->
           <li class="nav-item btn-nav">
-            <a class="nav-link" href="#contacto">Contacto</a>
+            <a class="nav-link nav-link-contacto" href="#contacto">Contacto</a>
           </li>
           <li class="nav-item btn-nav">
             <div class="contenedorBuscador">
@@ -87,7 +78,7 @@
             </p>
             <div class="d-flex justify-content-start">
               <div class="ms-5 mt-3">
-                <button class="btn">Contactanos</button>
+                <button class="btn"><a style="color: #fff" href="#contacto">Contactanos</a></button>
               </div>
 
             </div>
@@ -166,7 +157,7 @@
           <img src="img/iconos-simples/ícono-desarrollo.svg" class="w-25 center" alt="">
           <p>Desarrollo</p>
           <button class="btn-white btn-card open"
-            style="background-color: white; border-radius: 120px; width: 287px; height: 58px; margin: 0 auto; font-family: Montserrat; font-weight: 400; size: 20px;"><a>Ver
+            style="border-radius: 120px; width: 287px; height: 58px; margin: 0 auto; font-family: Montserrat; font-weight: 400; size: 20px;"><a>Ver
               más</a></button>
           <div class="box-content">
             <h3>Desarrollo</h3>
@@ -181,7 +172,7 @@
           <img src="img/iconos-simples/icono-implementacion.svg" class="w-25 center" alt="">
           <p>Implementacion</p>
           <button class="btn-white btn-card open2"
-            style="background-color: white; border-radius: 120px; width: 287px; height: 58px; margin: 0 auto; font-family: Montserrat; font-weight: 400; size: 20px;">Ver
+            style="border-radius: 120px; width: 287px; height: 58px; margin: 0 auto; font-family: Montserrat; font-weight: 400; size: 20px;">Ver
             más</button>
           <div class="box-content2">
             <h3>Implementación</h3>
@@ -196,7 +187,7 @@
           <img src="img/iconos-simples/icono-soporte.svg" class="w-25 center" alt="">
           <p>Soporte</p>
           <button class="btn-white btn-card open3"
-            style="background-color: white; border-radius: 120px; width: 287px; height: 58px; margin: 0 auto; font-family: Montserrat; font-weight: 400; size: 20px;">Ver
+            style="border-radius: 120px; width: 287px; height: 58px; margin: 0 auto; font-family: Montserrat; font-weight: 400; size: 20px;">Ver
             más</button>
           <div class="box-content3">
             <h3>Soporte</h3>
@@ -209,7 +200,7 @@
       </div>
     </div>
     <!-- Nuestros Productos -->
-    <div class="container-fluid products" style="background-color: #0595F01A;">
+    <div class="container-fluid products" id="productos" style="background-color: #0595F01A;">
       <h2 class="sub-titulo text-center mb-5" style="font-size: 45px; font-weight: 700;">Nuestros productos</h2>
       <div class="grid" style="width: 100%; margin: 20px auto;">
         <div class="span-row-2">
@@ -226,8 +217,7 @@
             <div class="card-body">
               <h5 class="card-title titleText-cards">iBox OR</h5>
               <p class="card-text subText-cards">Gestión Informatizada Integral de Quirófanos.</p>
-              <button class="btn-white btn-card btn-productos">Ver
-                Mas</button>
+              <a href="html/ibox.html"><button class="btn-white btn-card btn-productos2">Ver Más</button></a>
             </div>
           </div>
         </div>
@@ -241,7 +231,7 @@
               <div class="col-md-8"
                 style="display: inline-block; position:relative; height: 100%; width:60%; margin-left: 40%;">
                 <div class="card-body">
-                  <h5 class="card-title titleText-cards">I Traz</h5>
+                  <h5 class="card-title titleText-cards">iTraz</h5>
                   <p class="card-text subText-cards">Trazabilidad de todas las muestras generadas.</p>
                 </div>
               </div>
@@ -257,12 +247,12 @@
               <div class="col-md-8"
                 style="display: inline-block; position:relative; height: 100%; width:60%; margin-left: 40%;">
                 <div class="card-body">
-                  <h5 class="card-title titleText-cards">I Farma</h5>
+                  <h5 class="card-title titleText-cards">iFarma</h5>
                   <p class="card-text subText-cards">Gestión Inteligente
                     de Farmacia.</p>
                 </div>
               </div>
-              <button class="btn-white btn-card btn-productos2">Ver Más</button>
+              <a href="html/ifarma.html"><button class="btn-white btn-card btn-productos2">Ver Más</button></a>
             </div>
           </div>
           <div class="card sombraCard" style="width: 100%; margin: 10px auto; height: 33%;">
@@ -274,11 +264,11 @@
               <div class="col-md-8"
                 style="display: inline-block; position:relative; height: 100%; width:60%; margin-left: 40%;">
                 <div class="card-body">
-                  <h5 class="card-title titleText-cards">I Hos</h5>
+                  <h5 class="card-title titleText-cards">iHos</h5>
                   <p class="card-text subText-cards">Gestión de camas hospitalarias</p>
                 </div>
               </div>
-              <button class="btn-white btn-card btn-productos2">Ver Más</button>
+              <a href="html/ihos.html"><button class="btn-white btn-card btn-productos2">Ver Más</button></a>
             </div>
           </div>
         </div>
