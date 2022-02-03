@@ -1131,6 +1131,12 @@ img.img-main-itraz {
   font-size: 20px;
   line-height: 134.4%;
 }
+.card-itraz-a img {
+  margin: 1rem 0 0 1rem;
+}
+.card-itraz-a div.text-itraz-cards {
+  margin-top:.5rem;
+}
 .text-itraz b {
   font-family: Montserrat;
   font-style: normal;
@@ -1609,7 +1615,7 @@ img.img-main-itraz {
   display: none;
   z-index: 5;
   width: 85%;
-  height: 90%;
+  height: 900px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.2);
   box-shadow: 3px 3px 13px 12px #00000033;
@@ -1669,6 +1675,15 @@ img.img-main-itraz {
   top: 370px;
   background: white;
   border-radius: 10px;
+}
+.cont-pro div.card-a-content-pacientes {
+  margin-top:75px;
+}
+.cont-pro div.card-b-content-pacientes {
+  margin-top:75px;
+}
+.cont-pro div.card-c-content-pacientes {
+  margin-top:75px;
 }
 .card-a-content-pacientes p,
 .card-b-content-pacientes p,
@@ -1791,7 +1806,7 @@ img.img-main-itraz {
   line-height: 55px;
 } /* CONTACTO */
 #contacto {
-  height: 100vh;
+  height: 650px;
   width: 800px;
   padding-top: 8rem;
 }
