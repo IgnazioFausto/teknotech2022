@@ -1,0 +1,71 @@
+#contacto {
+    height: 650px;
+    width: 800px;
+    padding-top: 8rem;
+  }
+  input#nombre,
+  #institucion,
+  #email,
+  #tel,
+  #mensaje {
+    border-radius: 8px;
+  }
+  #mensaje {
+    height: 262px;
+    width: 656px;
+    left: 317px;
+    border-radius: 13px;
+  }
+  #label {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 9px;
+  }
+  .form-title {
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .camposObligatorios {
+    height: 27.11572265625px;
+    width: 324px;
+    left: 317px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    font-family: Montserrat;
+  }
+  ::placeholder {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  button input {
+    background-color: transparent;
+    border: 0px;
+    color: white;
+  }
+  button input:focus {
+    background-color: transparent;
+    color: white;
+  }
+  

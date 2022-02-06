@@ -1,0 +1,10 @@
+/* ------------------------------fonts---------------------------- */
+@font-face {
+    font-family: "Monstserrat-Bold";
+    src: url("../font/Montserrat-Bold.ttf") format("ttf");
+  }
+  
+  @font-face {
+    font-family: "Autobus";
+    src: url("../font/aAutobusOmnibus.woff") format("woff");
+  }

@@ -1,0 +1,648 @@
+/* Boton principal */
+.btn {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 60px;
+  margin: 0 auto;
+  width: 203px;
+  height: 68px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  display: flex;
+  color: #ffffff;
+  background: #1e43e1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25),
+    inset 15px 21px 40px rgba(9, 189, 228, 0.8), inset 10px 9px 12px #0595f0;
+  border-radius: 150px;
+  border: transparent;
+}
+.btn-card:hover {
+  color: #000000;
+  background: #34deca;
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.25), inset -2px -3px 24px #0b9b8a,
+    inset 6px 7px 15px rgba(255, 255, 255, 0.69);
+  border-radius: 120px;
+  border: transparent;
+}
+.card {
+  border: 1px solid black;
+  background: #f8f1f1;
+  box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card .btn {
+  margin: 1rem auto;
+}
+.center {
+  margin: 1rem auto;
+}
+.col-sm-6 {
+  width: auto;
+}
+.sombraCard {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 0px;
+}
+/* TITULOS */
+.titulo {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.sub-titulo {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 62, 73px;
+}
+.sub-tituloLighter {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Montserrat;
+  line-height: 55px;
+} 
+/* Navegador */
+.brand-title {
+  font-family: "Autobus";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 20vh 0 5rem;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  height: 96px;
+  border-radius: 0px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+}
+.navbar-nav {
+  margin: 0 20vh 0 0;
+}
+.navbar .active {
+  color: #46a9ca !important;
+  font-weight: bold;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.navbar .navbar-collapse {
+  flex-grow: unset;
+}
+.navbar .navbar-collapse .navbar-nav a {
+  margin: 0.5rem 2rem;
+  transition: all 0s;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1a242e;
+}
+.nav-link-contacto {
+  padding: 5px 15px;
+  background: #1e43e1;
+  box-shadow: inset 15px 21px 40px rgba(9, 189, 228, 0.8),
+    inset 10px 9px 12px #0595f0;
+  border-radius: 150px;
+  color: #fff !important;
+}
+
+ul.ul-productos {
+  width: 10%;
+  margin-left: 20px;
+}
+ul.ul-productos li {
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 4rem;
+}
+.btn-productos {
+  background-color: transparent;
+  border-radius: 120px;
+  height: 58px;
+  width: 269px;
+  margin: 1.5rem 0 0 50%;
+  font-family: Montserrat;
+  font-weight: 400;
+  size: 20px;
+}
+.btn-productos2 {
+  background-color: transparent;
+  border-radius: 120px;
+  height: 58px;
+  width: 269px;
+  margin: 3.5% 0 5% 46%;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+.titleText-cards {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.subText-cards {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.01rem;
+  text-align: left;
+}
+#buscador {
+  margin: auto;
+  background-color: #d9d9d9;
+  border-radius: 72px;
+  border: 0;
+}
+input:focus {
+  color: black;
+  background-color: #d9d9d9;
+  outline: none;
+}
+.botonBuscador {
+  margin: 0 1rem 0 0;
+  border-radius: 72px;
+  border: 0;
+  background: #d9d9d9;
+  width: 19px;
+}
+.contenedorBuscador {
+  display: flex;
+  height: 34px;
+  margin: 0.5rem auto;
+  padding-left: 1rem;
+  background-color: #d9d9d9;
+  border-radius: 72px;
+}
+/* MAIN */
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+button a:hover {
+  color: inherit;
+}
+/* grid nuestros productos */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 20px;
+}
+.span-row-2 {
+  grid-row: span 2 / auto;
+}
+/*Seccion Presentacion */
+.container-presentation {
+  background-image: url("../img/imagenes-background/header-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50rem;
+  margin: 0 auto;
+}
+.container-presentation .presentation {
+  display: flex;
+  width: 100%;
+}
+.container-presentation .presentation h2 {
+  color: #10023a;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 99px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/* seccion INTRODUCCION */
+.section-introdution {
+  position: relative;
+  bottom: 10rem;
+  margin-top: 10vh;
+}
+.section-introdution .card {
+  border: 1px solid black;
+  min-height: 15rem;
+}
+.section-introdution .card .m-height {
+  min-height: 8rem;
+}
+/* icons cards */
+.icon-cards {
+  width: 10rem;
+  height: 10rem;
+  margin: 10% auto;
+}
+.text-cards-nuestra {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 1rem auto 4rem auto;
+}
+/*Seccion Desarrollo - Implementacion - Soporte */
+.section-faster-and-secure h2 {
+  font-size: 4.5rem;
+  margin-bottom: 3rem;
+}
+.section-faster-and-secure p {
+  line-height: 3rem;
+  font-size: 2rem;
+}
+.box {
+  position: relative;
+  transition-duration: 1s;
+}
+.box-content {
+  position: absolute;
+  width: 300px;
+  margin: 0 15%;
+  height: 345px;
+  left: 0px;
+  top: 6px;
+  background: #ffffff;
+  border: 2px solid #34deca;
+  box-sizing: border-box;
+  box-shadow: 4px 7px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+.box-content p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 378px;
+  width: 260px;
+  margin-top: 6rem;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  transition-duration: 1s;
+}
+.box-content h3 {
+  position: absolute;
+  width: 132px;
+  height: 34px;
+  left: 84px;
+  top: 44px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 134.4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transition-duration: 1s;
+}
+.box-content {
+  transform: perspective(1000px) rotateX(180deg) scale(0);
+  transition-duration: 0.3s;
+}
+.activate {
+  transform: perspective(1000px) rotateY(0deg) translateX(150px) scale(1);
+  transition-duration: 0.5s;
+}
+a.close {
+  position: relative;
+  display: inline-block;
+  color: #262626;
+  border: 2px solid #262626;
+  margin-top: 1.5rem;
+  border: 0px;
+  cursor: pointer;
+}
+/* card 2  */
+.box-content2 {
+  position: absolute;
+  width: 300px;
+  margin: 0 15%;
+  height: 345px;
+  left: 0px;
+  top: 6px;
+  background: #ffffff;
+  border: 2px solid #34deca;
+  box-sizing: border-box;
+  box-shadow: 4px 7px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+.box-content2 p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 378px;
+  width: 260px;
+  margin-top: 6rem;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  transition-duration: 1s;
+}
+.box-content2 h3 {
+  position: absolute;
+  width: 132px;
+  height: 34px;
+  left: 44px;
+  top: 44px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 134.4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transition-duration: 1s;
+}
+.box-content2 {
+  transform: perspective(1000px) rotateX(180deg) scale(0);
+  transition-duration: 0.3s;
+}
+.activate {
+  transform: perspective(1000px) rotateY(0deg) translateX(150px) scale(1);
+  transition-duration: 0.5s;
+}
+a.close2 {
+  position: relative;
+  display: inline-block;
+  color: #262626;
+  border: 2px solid #262626;
+  margin-top: 1.5rem;
+  border: 0px;
+  cursor: pointer;
+}
+/* card 3  */
+.box-content3 {
+  position: absolute;
+  width: 300px;
+  margin: 0 15%;
+  height: 345px;
+  left: 0px;
+  top: 6px;
+  background: #ffffff;
+  border: 2px solid #34deca;
+  box-sizing: border-box;
+  box-shadow: 4px 7px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+.box-content3 p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 378px;
+  width: 260px;
+  margin-top: 6rem;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  transition-duration: 1s;
+}
+.box-content3 h3 {
+  position: absolute;
+  width: 132px;
+  height: 34px;
+  left: 94px;
+  top: 44px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 134.4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+.box-content3 {
+  transform: perspective(1000px) rotateX(180deg) scale(0);
+  transition-duration: 0.3s;
+}
+.activate {
+  transform: perspective(1000px) rotateX(0deg) scale(1);
+  transition-duration: 0.5s;
+}
+a.close3 {
+  position: relative;
+  display: inline-block;
+  color: #262626;
+  border: 2px solid #262626;
+  margin-top: 1.5rem;
+  border: 0px;
+  cursor: pointer;
+}
+/*Seccion Nuestros productos */
+.products {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 200px 10%;
+  padding-top: 100px;
+  margin-top: 6rem;
+  /*----------- primera columna */
+}
+.products h2 {
+  padding: 1.5rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.products .container-products {
+  margin: 1rem 0.5rem 0.5rem 2rem;
+}
+.products .container-products .card-product {
+  height: 50%;
+}
+.products .container-products .card-product .main-content {
+  min-height: 230px;
+  background: #fff;
+  margin: 0.5rem;
+}
+.products .container-products .card-product .main-content h4 {
+  margin: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.products .container-products .card-product .main-content p {
+  font-size: 1.5rem;
+  margin: 0.8rem;
+  padding-left: 0.8rem;
+}
+.products .container-products .card-product .main-content .container-btn {
+  display: flex;
+  justify-content: end;
+}
+.products .container-products .card-product .main-content .container-btn .btn {
+  border: 1px solid black;
+  margin: 0.25rem;
+}
+.products
+  .container-products
+  .card-product
+  .main-content
+  .container-btn
+  .btn:hover {
+  border: none;
+}
+/*--------------- Segunda Columna */
+.sidebar-content {
+  display: flex;
+  min-height: 150px;
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 10px;
+}
+.sidebar-content .content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.sidebar-content .content-card h4 {
+  margin: 1rem;
+}
+.sidebar-content .content-card p {
+  margin: 1rem;
+}
+.sidebar-content .content-card .container-btn {
+  margin: 1rem auto;
+}
+.sidebar-content .content-card .container-btn .btn {
+  border: 1px solid black;
+  margin: 0.5rem;
+}
+.sidebar-content .content-card .container-btn .btn:hover {
+  border: none;
+}
+/* Seccion NOSOTROS */
+#nosotros {
+  padding-top: 10rem;
+}
+.parrafos ul {
+  padding: 0;
+}
+#nosotros .parrafos {
+  position: relative;
+  right: 1rem;
+  height: 10%;
+  margin: 0 auto;
+  width: 50%;
+  text-align: justify;
+  padding: 0;
+}
+#nosotros .parrafos li {
+  list-style: none;
+  margin: 0 1rem;
+  padding: 0rem;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#nosotros .content {
+  min-height: 45rem;
+  background: #dbdfe5;
+}
+#nosotros .content .m-height-2 {
+  min-width: 30rem;
+  min-height: 50rem;
+}
+.img-sobreNos {
+  height: 438px;
+  width: 600px;
+  border-radius: 10px;
+  padding-left: 2rem;
+}
+.img-sobreNos2 {
+  width: 519px;
+  height: 509px;
+  border-radius: 10px;
+}
+.rounded-start {
+  border-radius: 10px !important;
+}
+.sobreNos {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+}
+.sobreNos-sub {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.textoNosotros {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 134.4%;
+  padding: 0 2rem;
+  text-align: left;
+}
+.sobreNos-titleIcon {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: start;
+}
