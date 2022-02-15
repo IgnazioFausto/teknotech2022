@@ -1,13 +1,13 @@
 /* header */
-@import url("/css/header.css");
+@import url("header.css");
 /* contact */
-@import url("/css/contact.css");
+@import url("contact.css");
 /* products */
-@import url("/css/products.css");
+@import url("products.css");
 /* footer */
-@import url("/css/footer.css");
+@import url("footer.css");
 /* fonts */
-@import url("/css/fonts.css");
+@import url("fonts.css");
 
 
 /* mediaquerys */
