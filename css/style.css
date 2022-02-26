@@ -12,7 +12,7 @@
 
 /* mediaquerys */
 
-@import "./media/media1024.css" screen and (max-width:1024px);
+@import "./media/1024px/responsive1024.css" screen and (max-width:1024px);
 
 * {
   margin: 0;
