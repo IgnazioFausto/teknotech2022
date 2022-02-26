@@ -636,6 +636,34 @@
     top: 1372px;
     position: absolute;
   }
+  .title-id_pacientes {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    line-height: 134.4%;
+    height: 477px;
+    width: 498px;
+    left: 836px;
+    top: 856px;
+    border-radius: nullpx;
+  }
+  .text-id_pacientes {
+    position: absolute;
+    width: 498px;
+    height: 477px;
+    left: 836px;
+    top: 920px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .text-id_pacientes b {
+    font-weight: 700;
+    font-family: Montserrat;
+  }
   /* modales */
   .content-idPacientes {
     display: block;
