@@ -7,10 +7,10 @@
   }
   .ihos-container-img {
     height: 527px;
-    width: 1220px;
+    width: 1000px;
     margin: 8rem auto 0 auto;
     border-radius: 10px;
-    background-image: url("../../../img/imagenes-background/header-img.jpg");
+    background-image: url("../../../img/productos/id-pacientes/id-pacientes-intro.png");
     background-repeat: round;
     background-position: initial;
     background-size: cover;

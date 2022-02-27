@@ -1,0 +1,149 @@
+
+.ibox-container-img {
+  height: 527px;
+  width: 1000px;
+  margin: 8rem auto 0 auto;
+  border-radius: 10px;
+  background-image: url("../../../img/productos/ibox/presentacion-ibox.png");
+  background-repeat: round;
+  background-position: initial;
+  background-size: cover;
+}
+img.img-main-ibox {
+  height: calc(665px / 1.2);
+  width: calc(595px / 1.3);
+  left: 30px;
+  top: 856px;
+  border-radius: 10px;
+  position: absolute;
+}
+.title-ibox {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  line-height: 134.4%;
+  height: 477px;
+  width: calc(498px / 1.2);
+  left: 530px;
+  top: 856px;
+  border-radius: nullpx;
+}
+.text-ibox {
+  position: absolute;
+  width: 450px;
+  height: 477px;
+  left: 530px;
+  top: 920px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+.text-ibox b {
+  font-weight: 700;
+  font-family: Montserrat;
+}
+.icon-ibox-cards {
+  position: absolute;
+}
+.card-ibox-a {
+  height: 356px;
+  width: calc(393px / 1.3);
+  left: 30px;
+  top: calc(1445px / 1.05);
+  border-radius: 4px;
+  position: absolute;
+  background: #f8f1f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-ibox-b {
+  height: 356px;
+  width: calc(393px / 1.3);
+  left: 350px;
+  top: calc(1445px / 1.05);
+  border-radius: 10px;
+  position: absolute;
+  background: #f8f1f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-ibox-c {
+  height: 356px;
+  width: calc(393px / 1.3);
+  left: 675px;
+  top: calc(1445px / 1.05);
+  border-radius: 10px;
+  position: absolute;
+  background: #f8f1f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-ibox-a h4 b .card-ibox-b h4 b .card-ibox-c h4 b {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  width: 344px;
+  line-height: 33.6px;
+  align-items: center;
+  text-align: center;
+}
+.card-ibox-a div div p,
+.card-ibox-b div div p,
+.card-ibox-c div div p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.5px;
+  width: 344px;
+  text-align: center;
+}
+.btn-prod-header-box {
+  margin: 5rem auto;
+  position: absolute;
+  width: 287px;
+  height: 68px;
+  left: 370px;
+  top: 1900px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 60px;
+  color: white;
+  position: absolute;
+  width: 287px;
+  height: 68px;
+  background: #1e43e1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25),
+    inset 15px 21px 40px rgba(9, 189, 228, 0.8), inset 10px 9px 12px #0595f0;
+  border-radius: 150px;
+  text-decoration: none;
+  font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+.prox-ibox {
+  position: absolute;
+  width: auto;
+  height: 24px;
+  left: 333px;
+  top: 1850px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* 
