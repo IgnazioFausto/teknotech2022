@@ -1,0 +1,191 @@
+.hospitalizacion {
+    background: linear-gradient(
+        180deg,
+        #0595f040 33%,
+        #8fcff880 70%,
+        #ffffff40 100%
+      ),
+      url("../../../img/productos/ihos/pexels-pixabay-236380\ 1.png");
+    height: 466px;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .hospitalizacion h3 {
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .hospitalizacion p {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .ihos-container-img {
+    height: 527px;
+    width: 1000px;
+    margin: 8rem auto 0 auto;
+    border-radius: 10px;
+    background-image: url("../../../img/productos/ihos/iHos.png");
+    background-repeat: round;
+    background-position: initial;
+    background-size: cover;
+  }
+  .card-ihos {
+    z-index: 2;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    position: absolute;
+    border-radius: 10px;
+    width: 660px;
+    height: 475px;
+    margin: 1.5rem;
+    margin-left: 0.1rem;
+  }
+  .text-card-ihos {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .subTitle-card-ihos {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .title-card-ihos {
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0595f0;
+  }
+  .text-prod-ihos {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    line-height: 17px;
+    border-bottom: black 4px solid;
+    padding-bottom: 8px;
+  }
+  .img-main-ihos {
+    height: 450px;
+    width: 450px;
+    border-radius: 0px;
+    margin: 0;
+  }
+  p.p-main-ihos {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 300px;
+    margin: -1rem 0rem;
+    margin-bottom: 5rem;
+  }
+  .main-ihos {
+    margin-top: 150px;
+    margin-bottom: 200px;
+    justify-content: center;
+  }
+  ul.ul-main-ihos li {
+    list-style: none;
+  }
+  img.icon-main-ihos {
+    margin: auto 0rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+  img.img-ihos-2 {
+    height: 540px;
+    width: 402px;
+    border-radius: 10px;
+  }
+  h4.title-ihos-2 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: -2rem;
+    width: 400px;
+  }
+  div .text-ihos-2 p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 14rem;
+    width: 350px;
+    margin-left: -2rem;
+  }
+  div .text-ihos-2 p b {
+    font-weight: 600;
+    font-family: Montserrat;
+  }
+  .btn-ihos {
+    height: 68px;
+    width: 287px;
+    left: 600px;
+    top: 2660px;
+    border-radius: 150px;
+    padding: 19px, 60px, 19px, 60px;
+    background: #1e43e1;
+    box-shadow: 10px 9px 12px 0px #0595f0 inset;
+    box-shadow: 0px 4px 6px 0px #00000040;
+    box-shadow: 15px 21px 40px 0px #09bde4cc inset;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25),
+      inset 15px 21px 40px rgba(9, 189, 228, 0.8), inset 10px 9px 12px #0595f0;
+    border-radius: 150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 60px;
+    position: absolute;
+    text-decoration: none;
+  }
+  .btn-ihos:hover {
+    color: #ffffff;
+  }

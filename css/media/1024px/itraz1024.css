@@ -1,0 +1,142 @@
+.itraz-container-img {
+    height: 527px;
+    width: 1000px;
+    margin: 8rem auto 0 auto;
+    border-radius: 10px;
+    background-image: url("../../../img/productos/itraz/presentacion-itraz.png");
+    background-repeat: round;
+    background-position: initial;
+    background-size: cover;
+  }
+  img.img-main-itraz {
+    height: calc(406px / 1.1);
+    width: calc(600px / 1.3);
+    left: 30px;
+    top: 819px;
+    border-radius: 10px;
+    position: absolute;
+  }
+  .title-itraz {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    line-height: 134.4%;
+    height: 477px;
+    width: 498px;
+    left: 536px;
+    top: 826px;
+    border-radius: nullpx;
+  }
+  .text-itraz {
+    position: absolute;
+    width: 398px;
+    height: 477px;
+    left: 536px;
+    top: 880px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 134.4%;
+  }
+  .card-itraz-a img {
+    margin: 1rem 0 0 1rem;
+  }
+  .card-itraz-a div.text-itraz-cards {
+    margin-top: 0.5rem;
+  }
+  .text-itraz b {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 134.4%;
+  }
+  .text-itraz-cards p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24.19px;
+    height: 179px;
+    width: 200px;
+  }
+  .text-itraz-cards p b {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 134.4%;
+  }
+  .icon-itraz-cards {
+    position: absolute;
+  }
+  .card-itraz-a {
+    height:353px;
+    width: calc(366px / 1.2);
+    left: 30px;
+    top: 1343px;
+    border-radius: 10px;
+    position: absolute;
+    background: #f8f1f1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .card-itraz-b {
+    height:353px;
+
+    width: calc(366px / 1.2);
+    left: 360px;
+    top: 1343px;
+    border-radius: 10px;
+    position: absolute;
+    background: #f8f1f1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .card-itraz-c {
+    height:353px;
+    width: calc(366px / 1.2);
+    left: 700px;
+    top: 1343px;
+    border-radius: 10px;
+    position: absolute;
+    background: #f8f1f1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .text-itraz-end {
+    position: absolute;
+    width: 599px;
+    height: 300px;
+    left: 111px;
+    top: 1767px;
+    font-family: Montserrat;
+  }
+  .text-itraz-end b {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 134.4%;
+  }
+  .btn-prod-bottom {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 60px;
+    color: white;
+    position: absolute;
+    width: 287px;
+    height: 68px;
+    background: #1e43e1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25),
+      inset 15px 21px 40px rgba(9, 189, 228, 0.8), inset 10px 9px 12px #0595f0;
+    border-radius: 150px;
+  }
