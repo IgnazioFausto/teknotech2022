@@ -219,6 +219,34 @@
   .btn-prod-header:hover {
     color: #ffffff;
   }
+  .btn-prod-header-box {
+    border: transparent;
+    height: 68px;
+    width: 287px;
+    left: 565px;
+    top: 1327px;
+    border-radius: 150px;
+    padding: 19px, 60px, 19px, 60px;
+    background: #1e43e1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25),
+      inset 15px 21px 40px rgba(9, 189, 228, 0.8), inset 10px 9px 12px #0595f0;
+    border-radius: 150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 60px;
+    text-decoration: none;
+  }
   .ibox-container-img {
     height: 527px;
     width: 1220px;
